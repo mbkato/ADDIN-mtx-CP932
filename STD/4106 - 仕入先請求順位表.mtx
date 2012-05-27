@@ -1,0 +1,64 @@
+[_ID="A3CSD" mtsCOD="4106  " mtsNA1="仕入先請求順位表            "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[仕入][][][][][]"
+		cshKBN="締日"
+		cshJUI="SII125"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※　仕入先請求順位表　※※※    "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="SII001" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="SII102" FLD="     前回請求額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII120" FLD="     今回支払額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII121" FLD="     調　整　額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII124" FLD="     繰　越　額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII106" FLD="     今回仕入額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII109" FLD="     消　費　税             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII125" FLD="     今回請求額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SII003" FLD="　　　仕　入　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SII125" FLD="　今回請求                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SII001" FLD="仕入先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SII102" FLD="買掛繰越                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII120" FLD="支 払 計（現金＋手形）      " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII121" FLD="他　支払                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII124" FLD="繰　　越（買掛繰越－支払計）" WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII106" FLD="掛仕入計（税抜）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII109" FLD="掛仕入税額                  " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII125" FLD="買掛残高                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

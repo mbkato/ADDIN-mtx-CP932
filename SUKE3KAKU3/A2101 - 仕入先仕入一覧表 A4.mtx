@@ -1,0 +1,71 @@
+[_ID="A3CSD" mtsCOD="A2101 " mtsNA1="仕入先仕入一覧表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表１"
+		cshDAT="[仕入][][][][][]"
+		cshKBN="期間"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="仕入先仕入一覧表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="SII001" FLD="コ－ド                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  7" RET="1"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="SII103" FLD="     仕　　入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII104" FLD="     値　　引               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII105" FLD="     返　　品               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII107" FLD="     現金仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII108" FLD="     税抜仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII111" FLD="     消 費 税               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII114" FLD="     税込仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII115" FLD="     仕入粗利               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII116" FLD=" 粗利率                     " WID="  7" FMT="ZZZZZ." UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="SII003" FLD="　　　仕　入　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="SII108" FLD="　税抜仕入                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="SII111" FLD="　消 費 税                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="SII114" FLD="　税込仕入                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="SII115" FLD="　粗　　利                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="SII001" FLD="仕入先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="SII103" FLD="仕　　入                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII104" FLD="値　　引                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII105" FLD="返　　品                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII107" FLD="現金仕入（税抜）            " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII108" FLD="仕 入 計（税抜）            " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII111" FLD="税 額 計                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII114" FLD="仕 入 計（税込）            " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII115" FLD="仕入粗利                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII116" FLD="仕入粗利率(%)               " WID=" 15" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

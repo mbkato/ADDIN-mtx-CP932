@@ -1,0 +1,48 @@
+[_ID="A3CSD" mtsCOD="3112  " mtsNA1="仕入先担当者支払表          "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表２"
+		cshDAT="[仕入][担当][支払][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※　仕入先担当者支払表　※※      "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳１" ITM="SII001" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="台帳１" ITM="SII003" FLD="仕入先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳２" ITM="TAN001" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="台帳２" ITM="TAN003" FLD="担当者名                    " WID=" 28" UDL="1"]
+		[RKB="伝票部" ITM="DEN126" FLD="取引回数                    " WID="  8" FMT="ZZZZZZ" UDL="1" TTL="1"]
+		[RKB="伝票部" ITM="DEN111" FLD="       支払金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳１" ITM="SII003" FLD="　　仕入先名／担当者名      " WID=" 28" RET="1"]
+		[RKB="台帳２" ITM="TAN003" TXT="                            " WID=" 28"]
+		[RKB="伝票部" ITM="DEN111" FLD="　支払金額                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳１" ITM="SII001" FLD="仕入先コ－ド                " WID=" 12"]
+		[RKB="台帳１" ITM="SII003" FLD="仕入先名称                  " WID=" 28"]
+		[RKB="台帳２" ITM="TAN001" FLD="担当者コ－ド                " WID="  6"]
+		[RKB="台帳２" ITM="TAN003" FLD="担当者名称                  " WID=" 28"]
+		[RKB="伝票部" ITM="DEN126" FLD="取引回数（集計２用）        " WID="  6" FMT="ZZZZZ."]
+		[RKB="伝票部" ITM="DEN111" FLD="取引金額                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

@@ -1,0 +1,71 @@
+[_ID="A3CSD" mtsCOD="A2006 " mtsNA1="得意先請求一覧表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表１"
+		cshDAT="[得意][][][][][]"
+		cshKBN="締日"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="得意先請求一覧表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="TOK001" FLD="コ－ド                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  4"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  8"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13" RET="1"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="TOK032" FLD="方法                        " WID="  4" UDL="1"]
+		[RKB="台帳部" ITM="TOK101" FLD="伝票枚数                    " WID="  8" FMT="ZZZZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK102" FLD="   前回請求額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK120" FLD="   今回入金額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK121" FLD="   調　整　額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK124" FLD="   繰　越　額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK106" FLD="   今回売上額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK109" FLD="   消　費　税               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK125" FLD="   今回請求額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="TOK003" FLD="　　　得　意　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="TOK102" FLD="　前回請求                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK122" FLD="　今回入金                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK112" FLD="　今回売上                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK125" FLD="　今回請求                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="TOK001" FLD="得意先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="TOK033" FLD="○決済方法                  " WID="  1" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK101" FLD="売上伝票枚数                " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK102" FLD="売掛繰越                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK120" FLD="入 金 計（現金＋手形）      " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK121" FLD="他　入金                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK124" FLD="繰　　越（売掛繰越－入金計）" WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK106" FLD="掛売上計（税抜）            " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK109" FLD="掛売上税額                  " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK125" FLD="売掛残高                    " WID=" 15" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

@@ -1,0 +1,65 @@
+[_ID="A3CSD" mtsCOD="A2209 " mtsNA1="商品発注点割れ在庫一覧表 A4 "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表１"
+		cshDAT="[商品][][][][][]"
+		cshKBN="期間"
+		cshOPT="発注点"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="商品発注点割れ在庫一覧表            "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="SYO001" FLD="コ－ド                      " WID=" 32"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  4"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13" RET="1"]
+		[RKB="台帳部" ITM="SYO002" FLD="品　　　名                  " WID=" 32" UDL="1"]
+		[RKB="台帳部" ITM="SYO003" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="台帳部" ITM="SYO132" FLD="     在庫数量               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO155" FLD="     発注残高               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO145" FLD="     受注残高               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO158" FLD="     含み在庫               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO015" FLD="     適正在庫               " WID=" 13" FMT="ZZZZZ." UDL="1"]
+		[RKB="台帳部" ITM="SYO157" FLD="     発 注 割               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="SYO002" FLD="　　品　　　名              " WID=" 32"]
+		[RKB="台帳部" ITM="SYO132" FLD=" 在庫数量                   " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="台帳部" ITM="SYO158" FLD=" 含み在庫                   " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="台帳部" ITM="SYO015" FLD=" 適正在庫                   " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO157" FLD=" 発注点割                   " WID=" 10" FMT="ZZZZZ." TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="SYO001" FLD="商品コ－ド                  " WID=" 17"]
+		[RKB="台帳部" ITM="SYO002" FLD="商品名称                    " WID=" 32"]
+		[RKB="台帳部" ITM="SYO003" FLD="単位                        " WID="  4"]
+		[RKB="台帳部" ITM="SYO132" FLD="在庫残高数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO155" FLD="発注残高数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO145" FLD="受注残高数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO158" FLD="在庫残高数量（受発注残含む）" WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO015" FLD="適正在庫数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO157" FLD="発注点割れ数                " WID=" 10" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

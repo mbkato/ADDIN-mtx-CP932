@@ -1,0 +1,57 @@
+[_ID="A3CSD" mtsCOD="4206  " mtsNA1="商品消費順位表              "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[商品][][][][][]"
+		cshKBN="期間"
+		cshJUI="SYO119"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※　商品消費順位表　※※※      "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="SYO001" FLD="コ－ド                      " WID=" 17" UDL="1"]
+		[RKB="台帳部" ITM="SYO002" FLD="品　　名                    " WID=" 32" UDL="1"]
+		[RKB="台帳部" ITM="SYO003" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="SYO117" FLD=" 消費数量                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO118" FLD=" 平均単価                   " WID="  9" FMT="ZZZZZ." UDL="1"]
+		[RKB="台帳部" ITM="SYO119" FLD="       消費金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO002" FLD="　　　品　　　　名          " WID=" 32"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SYO119" FLD="　消費金額                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO001" FLD="商品コ－ド                  " WID=" 17"]
+		[RKB="台帳部" ITM="SYO002" FLD="商品名称                    " WID=" 32"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SYO117" FLD="消費数量                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO118" FLD="消費平均単価                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO119" FLD="消費金額                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

@@ -1,0 +1,125 @@
+[_ID="A3CSD" mtsCOD="5002  " mtsNA1="発注日報                    "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="日報"
+		cshDAT="[発注][][][][][]"
+		cshKBN="伝票日付"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※　発注日報　※※※            "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="表題部" ITM="DEN011" FLD="伝票日付                    " WID="  8" FMT="年-月-日" UDL="1"]
+		[RKB="表題部" ITM="DEN012" FLD="伝票番号                    " WID="  8" UDL="1"]
+		[RKB="表題部" ITM="DEN003" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="表題部" ITM="DEN005" FLD="仕入先名                    " WID=" 28" UDL="1"]
+		[RKB="表題部" ITM="DEN018" FLD="納期予定                    " WID="  8" FMT="年-月-日" UDL="1"]
+		[RKB="表題部" ITM="DEN019" FLD="備　　考                    " WID=" 24" UDL="1"]
+		[RKB="表題部" ITM="DEN006" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="表題部" ITM="DEN008" FLD="請求先名                    " WID=" 28" UDL="1"]
+		[RKB="表題部" ITM="DEN009" FLD="コ－ド                      " WID="  6" UDL="1"]
+		[RKB="表題部" ITM="DEN010" FLD="担当者                      " WID=" 12" UDL="1" RET="1"]
+		[RKB="明細部" ITM="CTR001" FLD="                            " WID=" 38"]
+		[RKB="明細部" ITM="DEN102" FLD="区分                        " WID="  4" UDL="1"]
+		[RKB="明細部" ITM="DEN104" FLD="コ－ド                      " WID=" 17" UDL="1"]
+		[RKB="明細部" ITM="DEN105" FLD="品名／摘要                  " WID=" 32" UDL="1"]
+		[RKB="明細部" ITM="DEN141" FLD="倉庫                        " WID="  6" UDL="1"]
+		[RKB="明細部" ITM="DEN109" FLD="     数量                   " WID="  9" FMT="ZZZZZ." UDL="1"]
+		[RKB="明細部" ITM="DEN106" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="明細部" ITM="DEN110" FLD="     単価                   " WID="  9" FMT="ZZZZZ." UDL="1"]
+		[RKB="明細部" ITM="DEN111" FLD="           金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="明細部" ITM="DEN112" FLD="           粗利             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="明細部" ITM="DEN113" FLD=" 粗利率                     " WID="  7" FMT="ZZZZZ." UDL="1" RET="1"]
+		[RKB="合計部" ITM="CTR001" FLD="                            " WID=" 38"]
+		[RKB="合計部" ITM="CTR001" FLD="伝票計                      " WID=" 55"]
+		[RKB="合計部" ITM="DEN028" FLD="       税抜金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="合計部" ITM="DEN029" FLD="       消費税額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="合計部" ITM="DEN031" FLD="       合計金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="合計部" ITM="DEN026" FLD="       合計粗利             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="合計部" ITM="DEN027" FLD=" 粗利率                     " WID="  7" FMT="ZZZZZ." UDL="1" RET="1"]
+		[RKB="合計部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="日報計" ITM="CTR001" FLD="合　計                      " WID=" 47"]
+		[RKB="日報計" ITM="NIP021" FLD="  伝票枚数                  " WID=" 10" FMT="ZZZZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP006" FLD="       発　　注             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP011" FLD="       値　　引             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP012" FLD="       返　　品             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP023" FLD="       税抜金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP022" FLD="       消費税額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP024" FLD="       合計金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP025" FLD="       粗　　利             " WID=" 15" FMT="ZZ,ZZZ" UDL="1"]
+		[RKB="日報計" ITM="NIP026" FLD=" 粗利率                     " WID="  7" FMT="ZZZZZ." UDL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="表題部" ITM="DEN011" FLD="伝票日付                    " WID="  8" FMT="年-月-日"]
+		[RKB="表題部" ITM="DEN012" FLD="伝票番号                    " WID="  8"]
+		[RKB="表題部" ITM="DEN005" FLD="仕入先名                    " WID=" 28"]
+		[RKB="表題部" ITM="DEN018" FLD="納期予定                    " WID="  8" FMT="年-月-日"]
+		[RKB="表題部" ITM="DEN010" FLD="担当者                      " WID=" 12" RET="1"]
+		[RKB="明細部" ITM="DEN102" FLD="区分                        " WID="  4"]
+		[RKB="明細部" ITM="DEN105" FLD="品名／摘要                  " WID=" 32"]
+		[RKB="明細部" ITM="DEN141" FLD="倉庫                        " WID="  6"]
+		[RKB="明細部" ITM="DEN109" FLD="   数　量                   " WID="  9" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN106" FLD="単位                        " WID="  4"]
+		[RKB="明細部" ITM="DEN110" FLD="   単　価                   " WID="  9" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN111" FLD="         金　額             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="合計部" ITM="CTR001" FLD="伝票計                      " WID="  6"]
+		[RKB="合計部" ITM="DEN026" FLD="       合計粗利             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="合計部" ITM="DEN027" FLD=" 粗利率                     " WID="  7" FMT="ZZZZZ."]
+		[RKB="合計部" ITM="DEN028" FLD="       税抜金額             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="合計部" ITM="DEN029" FLD="       消費税額             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="合計部" ITM="DEN031" FLD="       合計金額             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="日報計" ITM="CTR001" FLD="合　計　                    " WID="  6"]
+		[RKB="日報計" ITM="NIP021" FLD="   枚数                     " WID="  7" FMT="ZZZZZZ"]
+		[RKB="日報計" ITM="NIP006" FLD="       発　　注             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="日報計" ITM="NIP023" FLD="       税抜金額             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="日報計" ITM="NIP022" FLD="       消費税額             " WID=" 15" FMT="ZZ,ZZZ"]
+		[RKB="日報計" ITM="NIP024" FLD="       合計金額             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="日報計" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="日報計" ITM="NIP011" TXT="       値　　引             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="日報計" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="日報計" ITM="NIP012" TXT="       返　　品             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="表題部" ITM="DEN011" FLD="伝票日付                    " WID=" 10" FMT="システム１"]
+		[RKB="表題部" ITM="DEN012" FLD="伝票番号                    " WID="  8"]
+		[RKB="表題部" ITM="DEN003" FLD="取引先コ－ド                " WID=" 12"]
+		[RKB="表題部" ITM="DEN005" FLD="取引先名称                  " WID=" 28"]
+		[RKB="表題部" ITM="DEN018" FLD="納期予定（受発注伝票用）    " WID=" 10" FMT="システム１"]
+		[RKB="表題部" ITM="DEN019" FLD="備　　考（受発注伝票用）    " WID=" 24"]
+		[RKB="表題部" ITM="DEN006" FLD="取引請求先コ－ド            " WID=" 12"]
+		[RKB="表題部" ITM="DEN008" FLD="取引請求先名称              " WID=" 28"]
+		[RKB="表題部" ITM="DEN009" FLD="取引担当者コ－ド            " WID="  6"]
+		[RKB="表題部" ITM="DEN010" FLD="取引担当者略称              " WID=" 12"]
+		[RKB="明細部" ITM="DEN103" FLD="○明細区分                  " WID="  1" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN104" FLD="明細コ－ド                  " WID=" 17"]
+		[RKB="明細部" ITM="DEN105" FLD="品名／摘要                  " WID=" 32"]
+		[RKB="明細部" ITM="DEN107" FLD="入　　数                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN108" FLD="箱　　数                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN109" FLD="明細数量                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN106" FLD="単位                        " WID="  4"]
+		[RKB="明細部" ITM="DEN110" FLD="明細単価                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN111" FLD="明細金額                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN141" FLD="倉庫コード                  " WID="  6"]
+		[RKB="明細部" ITM="DEN142" FLD="倉庫略称                    " WID=" 20"]
+		[RKB="明細部" ITM="DEN200" FLD="予備欄                      " WID=" 14"]
+		[RKB="明細部" ITM="DEN112" FLD="明細粗利                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN113" FLD="明細粗利率(%)               " WID=" 10" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

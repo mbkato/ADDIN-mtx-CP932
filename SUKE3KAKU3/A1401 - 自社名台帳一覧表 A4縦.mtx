@@ -1,0 +1,86 @@
+[_ID="A3CSD" mtsCOD="A1401 " mtsNA1="é©é–ñºë‰í†àÍóóï\ A4èc       "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="ë‰í†àÍóó"
+		cshDAT="[é©é–][][][][][]"
+		cshOPT="ïWèÄí†ï["
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="é©é–ñºë‰í†àÍóóï\                    "
+		cshFON="îºäpäøéö"
+		csh1PG=" 70"
+		cshCLX=" 78"
+		cshLCX=" 60"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="ë‰í†ïî" ITM="JIS001" FLD="ÉRÅ|Éh                      " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="JIS002" FLD="ñºèÃ                        " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS003" FLD="é©é–ñº                      " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS004" FLD="é©é–ñºÇQ                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS005" FLD="é©é–ñºÇR                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS006" FLD="é©é–ñºÇS                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS007" FLD="é©é–ñºÇT                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS008" FLD="é©é–ñºÇU                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS009" FLD="é©é–ñºÇV                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID="  6" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" FLD="                            " WID=" 36" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="JIS010" FLD="é©é–ñºÇW                    " WID=" 36" UDL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="ë‰í†ïî" ITM="JIS001" FLD="ÉRÅ|Éh                      " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="JIS002" FLD="Å@Å@Å@ñºÅ@Å@Å@èÃÅ^é©Å@é–Å@ñº" WID=" 70" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS003" TXT="é©é–ñºÇP                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS004" TXT="é©é–ñºÇQ                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS005" TXT="é©é–ñºÇR                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS006" TXT="é©é–ñºÇS                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS007" TXT="é©é–ñºÇT                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS008" TXT="é©é–ñºÇU                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS009" TXT="é©é–ñºÇV                    " WID=" 36" RET="1"]
+		[RKB="ë‰í†ïî" ITM="CTR001" TXT="ÅiãÛîí ANK Åj               " WID=" 40"]
+		[RKB="ë‰í†ïî" ITM="JIS010" TXT="é©é–ñºÇW                    " WID=" 36" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="ë‰í†ïî" ITM="JIS001" FLD="é©é–ñºÉRÅ|Éh                " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="JIS002" FLD="é©é–ñºñºèÃ                  " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS003" FLD="é©é–ñºÇP                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS004" FLD="é©é–ñºÇQ                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS005" FLD="é©é–ñºÇR                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS006" FLD="é©é–ñºÇS                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS007" FLD="é©é–ñºÇT                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS008" FLD="é©é–ñºÇU                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS009" FLD="é©é–ñºÇV                    " WID=" 36"]
+		[RKB="ë‰í†ïî" ITM="JIS010" FLD="é©é–ñºÇW                    " WID=" 36" RET="1"]
+	}
+
+}
+
+
+

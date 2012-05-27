@@ -1,0 +1,72 @@
+[_ID="A3CSD" mtsCOD="A4003 " mtsNA1="得意先売掛順位表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[得意][][][][][]"
+		cshKBN="期間"
+		cshJUI="TOK125"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="得意先売掛順位表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="TOK001" FLD="コ－ド                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13" RET="1"]
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="TOK102" FLD="     繰　　越               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK106" FLD="     掛 売 上               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK109" FLD="     消 費 税               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK112" FLD="     掛売上計               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK122" FLD="     入 金 計               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK125" FLD="     残　　高               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TOK003" FLD="　　　得　意　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TOK125" FLD="　売掛残高                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TOK001" FLD="得意先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TOK102" FLD="売掛繰越                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK106" FLD="掛売上計（税抜）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK109" FLD="掛売上税額                  " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK112" FLD="掛売上計（税込）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK122" FLD="入 金 計                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK125" FLD="売掛残高                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

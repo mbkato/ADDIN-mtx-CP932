@@ -1,0 +1,66 @@
+[_ID="A3CSD" mtsCOD="9021  " mtsNA1="ﾁｪｰﾝｽﾄｱ統一伝票(ﾀｰﾝｱﾗｳﾝﾄﾞ1) "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="伝票印刷"
+		cshDAT="[売伝][][][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="ﾁｪｰﾝｽﾄｱ統一伝票(ﾀｰﾝｱﾗｳﾝﾄﾞ用 1型)    "
+		cshFON="パイカ"
+		csh1PG=" 30"
+		cshCLX="110"
+		cshLCX=" 20"
+		cshTOP="  3"
+		cshLFT="  6"
+		cshHDL="  0"
+		cshYMD="  0"
+		cshMEI="  6"
+	]
+	{
+		[RKB="表題部" ITM="CTR001" TXT="空　　白（ANK ）            " WID="  2"]
+		[RKB="表題部" ITM="DEN005" TXT="取引先名称                  " WID=" 24" RET="1"]
+		[RKB="表題部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  2"]
+		[RKB="台帳部" ITM="TOK004" TXT="備考                        " WID=" 24"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  3"]
+		[RKB="台帳部" ITM="TOK001" TXT="得意先コ－ド                " WID=" 12"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 13"]
+		[RKB="表題部" ITM="DEN012" TXT="伝票番号                    " WID="  6"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  2"]
+		[RKB="自社名" ITM="JIS001" TXT="自社名コ－ド                " WID="  6"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  4"]
+		[RKB="自社名" ITM="JIS002" TXT="自社名名称                  " WID=" 24"]
+		[RKB="表題部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  3"]
+		[RKB="表題部" ITM="DEN016" TXT="注文日付                    " WID="  6" FMT="年月日"]
+		[RKB="表題部" ITM="CTR001" TXT="空　　白（ANK ）            " WID="  1"]
+		[RKB="表題部" ITM="DEN011" TXT="伝票日付                    " WID="  6" FMT="年月日" RET="1"]
+		[RKB="表題部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  3"]
+		[RKB="明細部" ITM="DEN105" TXT="品名／摘要                  " WID=" 32"]
+		[RKB="明細部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  1"]
+		[RKB="明細部" ITM="DEN104" TXT="商品コ－ド                  " WID=" 12" RET="1"]
+		[RKB="明細部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 38"]
+		[RKB="明細部" ITM="DEN107" TXT="入　　数                    " WID="  7" FMT="######"]
+		[RKB="明細部" ITM="DEN108" TXT="箱　　数                    " WID="  5" FMT="######"]
+		[RKB="明細部" ITM="DEN106" TXT="単位                        " WID="  4"]
+		[RKB="明細部" ITM="DEN109" TXT="明細数量                    " WID="  5" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 14"]
+		[RKB="明細部" ITM="DEN110" TXT="明細単価                    " WID="  8" FMT="ZZZZ.Z"]
+		[RKB="明細部" ITM="DEN111" TXT="明細金額                    " WID="  9" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN121" TXT="基準単価                    " WID="  6" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN116" TXT="取引原価                    " WID="  9" FMT="ZZZZZZ" RET="1"]
+		[RKB="合計部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="合計部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 53"]
+		[RKB="合計部" ITM="DEN039" TXT="数 量 計（伝票印刷用）      " WID="  5" FMT="ZZZZZZ"]
+		[RKB="合計部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 22"]
+		[RKB="合計部" ITM="DEN031" TXT="合計金額                    " WID="  9" FMT="ZZZZZZ"]
+		[RKB="合計部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  6"]
+		[RKB="合計部" ITM="DEN032" TXT="合計原価                    " WID="  9" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

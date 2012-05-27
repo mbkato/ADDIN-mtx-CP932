@@ -1,0 +1,58 @@
+[_ID="A3CSD" mtsCOD="4005  " mtsNA1="得意先納品順位表            "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[得意][][][][][]"
+		cshKBN="期間"
+		cshJUI="TOK133"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※　得意先納品順位表　※※※    "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="TOK001" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="TOK130" FLD="       納　　品             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK131" FLD="       納品値引             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK132" FLD="       納品返品             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK133" FLD="       納 品 計             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TOK003" FLD="　　　得　意　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TOK133" FLD="　納 品 計                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TOK001" FLD="得意先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TOK130" FLD="納　　品                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK131" FLD="納品値引                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK132" FLD="納品返品                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK133" FLD="納 品 計                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

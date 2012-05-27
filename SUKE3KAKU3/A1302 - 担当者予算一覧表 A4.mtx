@@ -1,0 +1,52 @@
+[_ID="A3CSD" mtsCOD="A1302 " mtsNA1="íSìñé“ó\éZàÍóóï\ A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="ë‰í†àÍóó"
+		cshDAT="[íSìñ][][][][][]"
+		cshOPT="ïWèÄí†ï["
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="Å¶Å¶Å¶Å@íSìñé“ó\éZàÍóóï\Å@Å¶Å¶Å¶    "
+		cshFON="îºäpäøéö"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN001" FLD="ÉRÅ|Éh                      " WID="  6" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN002" FLD="ó™èÃ                        " WID=" 12" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD="(ó\éZÇP) îÑè„åv             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="       ëeóòã‡äz             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN007" FLD="(ó\éZÇQ) îÑè„åv             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN008" FLD="       ëeóòã‡äz             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN001" FLD="ÉRÅ|Éh                      " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="TAN002" FLD="ó™èÃ                        " WID=" 12"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD=" îÑè„åv(ÇP)                 " WID=" 11" FMT="ZZ,ZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="   ëeóòã‡äz                 " WID=" 11" FMT="ZZ,ZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN007" FLD=" îÑè„åv(ÇQ)                 " WID=" 11" FMT="ZZ,ZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN008" FLD="   ëeóòã‡äz                 " WID=" 11" FMT="ZZ,ZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN001" FLD="íSìñé“ÉRÅ|Éh                " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="TAN002" FLD="íSìñé“ó™èÃ                  " WID=" 12"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD="     ê≈î≤îÑè„åv             " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="       ëeóòã‡äz             " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN007" FLD="     ê≈î≤îÑè„åv             " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN008" FLD="       ëeóòã‡äz             " WID=" 15" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

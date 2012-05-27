@@ -1,0 +1,43 @@
+[_ID="A3CSD" mtsCOD="A1501 " mtsNA1="—X•Ö”Ô†‘ä’ ˆê——•\ A4c     "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="‘ä’ ˆê——"
+		cshDAT="[—X•Ö][][][][][]"
+		cshOPT="•W€’ •["
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="—X•Ö”Ô†‘ä’ ˆê——                    "
+		cshFON="”¼ŠpŠ¿Žš"
+		csh1PG=" 70"
+		cshCLX=" 78"
+		cshLCX=" 64"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="‘ä’ •”" ITM="YUB001" FLD="—X•Ö”Ô†                    " WID="  8" UDL="1"]
+		[RKB="‘ä’ •”" ITM="YUB002" FLD="ZŠ                        " WID=" 28" UDL="1"]
+		[RKB="‘ä’ •”" ITM="YUB004" FLD="ZŠ‚Q                      " WID=" 28" UDL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="‘ä’ •”" ITM="YUB001" FLD="—X•Ö”Ô†                    " WID="  8"]
+		[RKB="‘ä’ •”" ITM="YUB002" FLD="@@Z@@Š                " WID=" 28"]
+		[RKB="‘ä’ •”" ITM="YUB004" FLD="@@Z@@Š‚Q              " WID=" 28" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="‘ä’ •”" ITM="YUB001" FLD="—X•Ö”Ô†                    " WID="  8"]
+		[RKB="‘ä’ •”" ITM="YUB002" FLD="ZŠ                        " WID=" 28"]
+		[RKB="‘ä’ •”" ITM="YUB004" FLD="ZŠ‚Q                      " WID=" 28"]
+	}
+
+}
+
+
+

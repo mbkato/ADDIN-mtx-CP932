@@ -1,0 +1,67 @@
+[_ID="A3CSD" mtsCOD="A2409 " mtsNA1="商品倉庫発注点割れ在庫表 A4 "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="倉庫集計"
+		cshDAT="[商品][倉庫][][][][]"
+		cshKBN="期間"
+		cshOPT="発注点"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="商品倉庫発注点割れ在庫一覧表        "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳１" ITM="SYO001" FLD="コ－ド                      " WID=" 32"]
+		[RKB="台帳２" ITM="SKO001" FLD="コード                      " WID=" 28"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9"]
+		[RKB="集計部" ITM="CTR002" FLD="                            " WID="  9" RET="1"]
+		[RKB="台帳１" ITM="SYO002" FLD="商品名称                    " WID=" 32" UDL="1"]
+		[RKB="台帳２" ITM="SKO003" FLD="倉庫名称                    " WID=" 28" UDL="1"]
+		[RKB="集計部" ITM="SKO119" FLD=" 在庫数量                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="集計部" ITM="SKO142" FLD=" 発注残高                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="集計部" ITM="SKO132" FLD=" 受注残高                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="集計部" ITM="SKO146" FLD=" 含み在庫                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="集計部" ITM="SKO100" FLD=" 適正在庫                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="集計部" ITM="SKO145" FLD=" 発 注 割                   " WID="  9" FMT="ZZZZZ." UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳１" ITM="SYO002" FLD="商品名／倉庫名              " WID=" 32" RET="1"]
+		[RKB="台帳２" ITM="SKO003" TXT="倉庫名称                    " WID=" 32"]
+		[RKB="集計部" ITM="SKO119" FLD=" 在庫数量                   " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="集計部" ITM="SKO146" FLD=" 含み在庫                   " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="集計部" ITM="SKO100" FLD=" 適正在庫                   " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="集計部" ITM="SKO145" FLD=" 発注点割                   " WID=" 10" FMT="ZZZZZ." TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳１" ITM="SYO001" FLD="商品コ－ド                  " WID=" 17"]
+		[RKB="台帳１" ITM="SYO002" FLD="商品名称                    " WID=" 32"]
+		[RKB="台帳２" ITM="SKO001" FLD="倉庫コード                  " WID="  6"]
+		[RKB="台帳２" ITM="SKO003" FLD="倉庫名称                    " WID=" 28"]
+		[RKB="集計部" ITM="SKO119" FLD="  在庫数量                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="集計部" ITM="SKO142" FLD="  発注残高                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="集計部" ITM="SKO132" FLD="  受注残高                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="集計部" ITM="SKO146" FLD="  含み在庫                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="集計部" ITM="SKO100" FLD="  適正在庫                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="集計部" ITM="SKO145" FLD="  発 注 割                  " WID=" 10" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

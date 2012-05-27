@@ -1,0 +1,85 @@
+[_ID="A3CSD" mtsCOD="1401  " mtsNA1="自社名台帳一覧表            "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="台帳一覧"
+		cshDAT="[自社][][][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※　自社名台帳一覧表　※※※    "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="JIS001" FLD="コ－ド                      " WID="  6" UDL="1"]
+		[RKB="台帳部" ITM="JIS002" FLD="名称                        " WID=" 36" UDL="1"]
+		[RKB="台帳部" ITM="JIS003" FLD="自社名                      " WID=" 36" UDL="1" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS004" TXT="自社名２                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS005" TXT="自社名３                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS006" TXT="自社名４                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS007" TXT="自社名５                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS008" TXT="自社名６                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS009" TXT="自社名７                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID="  7"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 37"]
+		[RKB="台帳部" ITM="JIS010" TXT="自社名８                    " WID=" 36" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="JIS001" FLD="コ－ド                      " WID="  6"]
+		[RKB="台帳部" ITM="JIS002" FLD="　　　名　　　称／自　社　名" WID=" 70" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS003" TXT="自社名１                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS004" TXT="自社名２                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS005" TXT="自社名３                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS006" TXT="自社名４                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS007" TXT="自社名５                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS008" TXT="自社名６                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS009" TXT="自社名７                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="（空白 ANK ）               " WID=" 40"]
+		[RKB="台帳部" ITM="JIS010" TXT="自社名８                    " WID=" 36" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="JIS001" FLD="自社名コ－ド                " WID="  6"]
+		[RKB="台帳部" ITM="JIS002" FLD="自社名名称                  " WID=" 36"]
+		[RKB="台帳部" ITM="JIS003" FLD="自社名１                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS004" FLD="自社名２                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS005" FLD="自社名３                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS006" FLD="自社名４                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS007" FLD="自社名５                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS008" FLD="自社名６                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS009" FLD="自社名７                    " WID=" 36"]
+		[RKB="台帳部" ITM="JIS010" FLD="自社名８                    " WID=" 36" RET="1"]
+	}
+
+}
+
+
+

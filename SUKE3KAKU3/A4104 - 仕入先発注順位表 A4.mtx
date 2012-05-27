@@ -1,0 +1,66 @@
+[_ID="A3CSD" mtsCOD="A4104 " mtsNA1="仕入先発注順位表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[仕入][][][][][]"
+		cshKBN="期間"
+		cshJUI="SII129"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="仕入先発注順位表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="SII001" FLD="コ－ド                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13" RET="1"]
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="SII126" FLD="     発注繰越               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII127" FLD="     発　　注               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII128" FLD="     発注引当               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SII129" FLD="     発注残高               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SII003" FLD="　　　仕　入　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SII129" FLD="　発注残高                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SII001" FLD="仕入先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="SII126" FLD="発注繰越                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII127" FLD="発　　注                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII128" FLD="発注引当                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SII129" FLD="発注残高                    " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

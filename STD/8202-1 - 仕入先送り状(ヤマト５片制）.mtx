@@ -1,0 +1,64 @@
+[_ID="A3CSD" mtsCOD="8202-1" mtsNA1="仕入先送り状(ヤマト５片制） "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="送り状"
+		cshDAT="[仕入][][][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="仕入先送り状(ヤマト５片制）         "
+		cshFON="パイカ"
+		csh1PG=" 24"
+		cshCLX=" 61"
+		cshLCX=" 16"
+		cshLFT=" 10"
+		cshHDL="  0"
+		cshYMD="  0"
+	]
+	{
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 10"]
+		[RKB="台帳部" ITM="TOK008" TXT="電話番号                    " WID=" 12" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="台帳部" ITM="SII006" TXT="住所１                      " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="台帳部" ITM="SII007" TXT="住所２                      " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  3"]
+		[RKB="台帳部" ITM="SII003" TXT="仕入先名称                  " WID=" 28" RET="1"]
+		[RKB="自社名" ITM="JIS007" TXT="自社名５                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR001" TXT="空　　白（ANK ）            " WID="  5"]
+		[RKB="自社名" ITM="JIS003" TXT="自社名１                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="JIS004" TXT="自社名２                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="自社名" ITM="JIS005" TXT="自社名３                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="自社名" ITM="JIS006" TXT="自社名４                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="自社名" ITM="JIS008" TXT="自社名６                    " WID=" 36" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="SII003" FLD="お届け先                    " WID=" 28"]
+		[RKB="台帳部" ITM="SII006" FLD="住所１                      " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 29"]
+		[RKB="台帳部" ITM="SII007" TXT="                            " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 29"]
+		[RKB="台帳部" ITM="SII008" TXT="電話番号                    " WID=" 12" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR004" FLD="〒                          " WID="  3"]
+		[RKB="台帳部" ITM="SII005" FLD="郵便番号                    " WID="  8" RET="1"]
+		[RKB="台帳部" ITM="SII006" FLD="住所１                      " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="SII007" FLD="住所２                      " WID=" 28" RET="1"]
+		[RKB="台帳部" ITM="SII008" FLD="電話番号                    " WID=" 12" RET="1"]
+		[RKB="台帳部" ITM="SII003" FLD="仕入先名称                  " WID=" 28" RET="1"]
+	}
+
+}
+
+
+

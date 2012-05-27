@@ -1,0 +1,45 @@
+[_ID="A3CSD" mtsCOD="1701  " mtsNA1="倉庫台帳一覧表              "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="台帳一覧"
+		cshDAT="[倉庫][][][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※※  倉庫台帳一覧表  ※※※      "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="SKO001" FLD="コード                      " WID="  6" UDL="1"]
+		[RKB="台帳部" ITM="SKO002" FLD="略称                        " WID=" 20" UDL="1"]
+		[RKB="台帳部" ITM="SKO003" FLD="名称                        " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="SKO004" FLD="備考                        " WID=" 28" UDL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="SKO001" FLD="コード                      " WID="  6"]
+		[RKB="台帳部" ITM="SKO002" FLD="略　称                      " WID=" 20"]
+		[RKB="台帳部" ITM="SKO003" FLD="　名　　称                  " WID=" 28"]
+		[RKB="台帳部" ITM="SKO004" FLD="　備　　考                  " WID=" 28" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="SKO001" FLD="倉庫コード                  " WID="  6"]
+		[RKB="台帳部" ITM="SKO002" FLD="略称                        " WID=" 20"]
+		[RKB="台帳部" ITM="SKO003" FLD="倉庫名称                    " WID=" 28"]
+		[RKB="台帳部" ITM="SKO004" FLD="備考                        " WID=" 28" RET="1"]
+	}
+
+}
+
+
+

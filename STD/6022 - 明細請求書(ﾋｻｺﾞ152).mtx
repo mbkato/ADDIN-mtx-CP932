@@ -1,0 +1,122 @@
+[_ID="A3CSD" mtsCOD="6022  " mtsNA1="明細請求書(ﾋｻｺﾞ152)         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="明細書"
+		cshDAT="[得意][売伝][入金][][][]"
+		cshKBN="締日"
+		cshGEN="0"
+		cshZAN="0"
+		cshOPT="専用２"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="明細請求書(ﾋｻｺﾞ152)                 "
+		cshFON="パイカ"
+		csh1PG=" 66"
+		cshCLX=" 90"
+		cshLCX=" 66"
+		cshHDL="  0"
+		cshYMD="  0"
+		cshMEI=" 41"
+		cshGDI="1"
+		cshNHL="1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  2"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="台帳部" ITM="CTR004" TXT="〒                          " WID="  4"]
+		[RKB="台帳部" ITM="TOK005" TXT="郵便番号                    " WID="  8"]
+		[RKB="台帳部" ITM="CTR006" TXT="復　　帰（復帰だけ）        " WID="  0"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS003" TXT="自社名１                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS004" TXT="自社名２                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="台帳部" ITM="TOK006" TXT="住所１                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR006" TXT="復　　帰（復帰だけ）        " WID="  0"]
+		[RKB="自社名" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS005" TXT="自社名３                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="台帳部" ITM="TOK007" TXT="住所２                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR006" TXT="復　　帰（復帰だけ）        " WID="  0"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS006" TXT="自社名４                    " WID=" 36" RET="1"]
+		[RKB="自社名" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS007" TXT="自社名５                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 14"]
+		[RKB="台帳部" ITM="TOK003" TXT="得意先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR004" TXT=" 様                         " WID="  3"]
+		[RKB="台帳部" ITM="CTR006" TXT="復　　帰（復帰だけ）        " WID="  0"]
+		[RKB="自社名" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS008" TXT="自社名６                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 23"]
+		[RKB="台帳部" ITM="CTR003" TXT="(                           " WID="  1"]
+		[RKB="台帳部" ITM="TOK001" TXT="得意先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="CTR003" TXT=")                           " WID="  1"]
+		[RKB="台帳部" ITM="CTR006" TXT="復　　帰（復帰だけ）        " WID="  0"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 55"]
+		[RKB="自社名" ITM="JIS009" TXT="自社名７                    " WID=" 36" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  3"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 68"]
+		[RKB="台帳部" ITM="CTR017" TXT="請求日付                    " WID="  9" FMT="年-月-日"]
+		[RKB="自社名" ITM="CTR008" TXT="頁番号１                    " WID="  6" FMT="ZZZZZZ"]
+		[RKB="自社名" ITM="CTR003" TXT="-                           " WID="  1"]
+		[RKB="自社名" ITM="CTR009" TXT="頁番号２                    " WID="  2" FMT="ZZZZZZ" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="台帳部" ITM="CTR001" TXT="空　　白（ANK ）            " WID=" 65"]
+		[RKB="台帳部" ITM="CTR004" TXT="消 費 税 額                 " WID=" 12" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+		[RKB="台帳部" ITM="TOK102" TXT="      売掛繰越              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK120" TXT="      入 金 計              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK121" TXT="      他　入金              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK124" TXT="      繰　　越              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK106" TXT="      売 上 計              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK109" TXT="    掛売上税額              " WID=" 14" FMT="ZZ,ZZZ"]
+		[RKB="台帳部" ITM="TOK125" TXT="      売掛残高              " WID=" 14" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="台帳部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  4"]
+		[RKB="表題部" ITM="DEN011" TXT="伝票日付                    " WID="  4" FMT="月日"]
+		[RKB="表題部" ITM="DEN012" TXT="伝票番号                    " WID="  6"]
+		[RKB="明細部" ITM="DEN102" TXT="明細区分                    " WID="  6"]
+		[RKB="明細部" ITM="DEN105" TXT="品名／摘要                  " WID=" 32"]
+		[RKB="明細部" ITM="DEN109" TXT=" 明細数量                   " WID="  9" FMT="#####."]
+		[RKB="明細部" ITM="DEN106" TXT="単位                        " WID="  4"]
+		[RKB="明細部" ITM="DEN110" TXT=" 明細単価                   " WID="  9" FMT="#####."]
+		[RKB="明細部" ITM="DEN129" TXT="売上金額（元帳用）          " WID=" 11" FMT="######"]
+		[RKB="明細部" ITM="DEN131" TXT="入金金額（元帳用）          " WID=" 11" FMT="######" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="TOK003" FLD="取引先名                    " WID=" 29"]
+		[RKB="台帳部" ITM="TOK102" FLD="繰越残高                    " WID=" 11" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK112" FLD="掛売上計                    " WID=" 11" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK122" FLD="入金合計                    " WID=" 11" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK125" FLD="次回繰越                    " WID=" 11" FMT="ZZZZZZ"]
+		[RKB="表題部" ITM="DEN011" FLD="月日                        " WID="  4" FMT="月日"]
+		[RKB="表題部" ITM="DEN012" FLD="番号                        " WID="  6"]
+		[RKB="明細部" ITM="DEN105" FLD="品名／摘要                  " WID=" 33"]
+		[RKB="明細部" ITM="DEN109" FLD="     数量                   " WID="  9" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN129" FLD="　　売上額                  " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN131" FLD="　　入金額                  " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="表題部" ITM="DEN003" FLD="取引先コ－ド                " WID=" 12"]
+		[RKB="表題部" ITM="DEN005" FLD="取引先名称                  " WID=" 28"]
+		[RKB="表題部" ITM="DEN011" FLD="伝票日付                    " WID=" 10" FMT="システム１"]
+		[RKB="表題部" ITM="DEN012" FLD="伝票番号                    " WID="  8"]
+		[RKB="明細部" ITM="DEN102" FLD="明細区分                    " WID="  6"]
+		[RKB="明細部" ITM="DEN105" FLD="品名／摘要                  " WID=" 32"]
+		[RKB="明細部" ITM="DEN109" FLD="明細数量                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN106" FLD="単位                        " WID="  4"]
+		[RKB="明細部" ITM="DEN110" FLD="明細単価                    " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="DEN129" FLD="売上金額（元帳用）          " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="明細部" ITM="DEN131" FLD="入金金額（元帳用）          " WID=" 15" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

@@ -1,0 +1,42 @@
+[_ID="A3CSD" mtsCOD="1501  " mtsNA1="郵便番号台帳一覧表          "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="台帳一覧"
+		cshDAT="[郵便][][][][][]"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="※※　郵便番号台帳一覧表　※※      "
+		cshFON="半角漢字"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="台帳部" ITM="YUB001" FLD="郵便番号                    " WID="  8" UDL="1"]
+		[RKB="台帳部" ITM="YUB002" FLD="住所                        " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="YUB004" FLD="住所２                      " WID=" 28" UDL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="YUB001" FLD="郵便番号                    " WID="  8"]
+		[RKB="台帳部" ITM="YUB002" FLD="　　住　　所                " WID=" 28"]
+		[RKB="台帳部" ITM="YUB004" FLD="　　住　　所２              " WID=" 28" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="YUB001" FLD="郵便番号                    " WID="  8"]
+		[RKB="台帳部" ITM="YUB002" FLD="住所                        " WID=" 28"]
+		[RKB="台帳部" ITM="YUB004" FLD="住所２                      " WID=" 28" RET="1"]
+	}
+
+}
+
+
+

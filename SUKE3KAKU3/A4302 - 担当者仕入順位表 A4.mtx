@@ -1,0 +1,76 @@
+[_ID="A3CSD" mtsCOD="A4302 " mtsNA1="担当者仕入順位表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="順位表"
+		cshDAT="[担当][][][][][]"
+		cshKBN="期間"
+		cshJUI="TAN131"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="担当者仕入順位表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="TAN001" FLD="コ－ド                      " WID=" 28"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  6" RET="1"]
+		[RKB="台帳部" ITM="CTR010" FLD="順位                        " WID="  6" FMT="ZZZZZZ" UDL="1"]
+		[RKB="台帳部" ITM="TAN003" FLD="担当者名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ" UDL="1"]
+		[RKB="台帳部" ITM="TAN123" FLD="     掛仕入計               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN124" FLD="     現金仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN125" FLD="     税抜仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN128" FLD="     消 費 税               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN131" FLD="     税込仕入               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN132" FLD="     粗　　利               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TAN133" FLD="粗利率                      " WID="  6" FMT="ZZZZZ." UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD=" 順位                       " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TAN003" FLD="　担　当　者　名            " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計                      " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TAN131" FLD="　税込仕入                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TAN132" FLD="　粗　　利                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="CTR010" FLD="順位  （順位表用）          " WID="  6" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="TAN001" FLD="担当者コ－ド                " WID="  6"]
+		[RKB="台帳部" ITM="TAN003" FLD="担当者名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="CTR011" FLD="構成比（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="CTR012" FLD="累　計（順位表用）          " WID="  6" FMT="ZZZ.ZZ"]
+		[RKB="台帳部" ITM="TAN123" FLD="掛仕入計（税抜）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN124" FLD="現金仕入（税抜）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN125" FLD="仕 入 計（税抜）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN128" FLD="仕入税額計                  " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN131" FLD="仕 入 計（税込）            " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN132" FLD="仕入粗利                    " WID=" 10" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TAN133" FLD="仕入粗利率(%)               " WID=" 10" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

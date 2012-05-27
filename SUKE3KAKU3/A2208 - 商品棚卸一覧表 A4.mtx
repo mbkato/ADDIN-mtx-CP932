@@ -1,0 +1,68 @@
+[_ID="A3CSD" mtsCOD="A2208 " mtsNA1="商品棚卸一覧表 A4           "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表１"
+		cshDAT="[商品][][][][][]"
+		cshKBN="期間"
+		cshOPT="棚卸一覧"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="商品棚卸一覧表                      "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="SYO001" FLD="コ－ド                      " WID=" 32"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID="  4"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13"]
+		[RKB="台帳部" ITM="CTR002" FLD="                            " WID=" 13" RET="1"]
+		[RKB="台帳部" ITM="SYO002" FLD="品　　　名                  " WID=" 32" UDL="1"]
+		[RKB="台帳部" ITM="SYO003" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="台帳部" ITM="SYO133" FLD="     在庫単価               " WID=" 13" FMT="ZZZZZ." UDL="1"]
+		[RKB="台帳部" ITM="SYO126" FLD="     帳簿数量               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO127" FLD="     帳簿金額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO130" FLD="     棚卸数量               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO131" FLD="     棚卸金額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO135" FLD="     差異数量               " WID=" 13" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="SYO136" FLD="     差異金額               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="SYO002" FLD="　　品　　　名              " WID=" 32"]
+		[RKB="台帳部" ITM="SYO126" FLD="  帳簿数量                  " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="台帳部" ITM="SYO130" FLD="  棚卸数量                  " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="台帳部" ITM="SYO135" FLD="  差異数量                  " WID=" 10" FMT="ZZZZZ." TTL="1"]
+		[RKB="台帳部" ITM="SYO136" FLD="  差異金額                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="SYO001" FLD="商品コ－ド                  " WID=" 17"]
+		[RKB="台帳部" ITM="SYO002" FLD="商品名称                    " WID=" 32"]
+		[RKB="台帳部" ITM="SYO003" FLD="単位                        " WID="  4"]
+		[RKB="台帳部" ITM="SYO133" FLD="在庫残高単価                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO126" FLD="帳簿在庫数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO127" FLD="帳簿在庫金額                " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SYO130" FLD="棚卸在庫数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO131" FLD="棚卸在庫金額                " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="SYO135" FLD="棚卸差異数量                " WID=" 10" FMT="ZZZZZ."]
+		[RKB="台帳部" ITM="SYO136" FLD="棚卸差異金額                " WID=" 15" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

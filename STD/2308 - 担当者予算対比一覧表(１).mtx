@@ -1,0 +1,57 @@
+[_ID="A3CSD" mtsCOD="2308  " mtsNA1="íSìñé“ó\éZëŒî‰àÍóóï\(ÇP)    "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="èWåvï\ÇP"
+		cshDAT="[íSìñ][][][][][]"
+		cshKBN="ä˙ä‘"
+		cshOPT="ïWèÄí†ï["
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="Å¶Å¶Å@íSìñé“ó\éZëŒî‰àÍóóï\Å@Å¶Å¶    "
+		cshFON="îºäpäøéö"
+		csh1PG=" 66"
+		cshCLX="135"
+		cshLCX=" 56"
+		cshHDL="  3"
+		cshYMD="  1"
+	]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN001" FLD="ÉRÅ|Éh                      " WID="  6" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN003" FLD="íSìñé“ñº                    " WID=" 28" UDL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN106" FLD="      îÑ è„ åv              " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD="      ó\ éZ ÇP              " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN148" FLD="íBê¨ó¶(%)                   " WID=" 10" FMT="ZZZZZ." UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN113" FLD="      ëeóòã‡äz              " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="      ó\ éZ ÇP              " WID=" 15" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN149" FLD="íBê¨ó¶(%)                   " WID=" 10" FMT="ZZZZZ." UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN002" FLD="íSìñé“ñº                    " WID=" 12"]
+		[RKB="ë‰í†ïî" ITM="TAN106" FLD="  îÑ è„ åv                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD="Å@ó\ éZ ÇP                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN148" FLD="íBê¨ó¶                      " WID="  6" FMT="ZZZZZ." TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN113" FLD="Å@ëeÅ@Å@óò                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="Å@ó\ éZ ÇP                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="ë‰í†ïî" ITM="TAN149" FLD="íBê¨ó¶                      " WID="  6" FMT="ZZZZZ." TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="ë‰í†ïî" ITM="TAN001" FLD="íSìñé“ÉRÅ|Éh                " WID="  6"]
+		[RKB="ë‰í†ïî" ITM="TAN003" FLD="íSìñé“ñºèÃ                  " WID=" 28"]
+		[RKB="ë‰í†ïî" ITM="TAN106" FLD="îÑ è„ åv                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN005" FLD="ó\ éZ ÇP                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN148" FLD="íBê¨ó¶(%)                   " WID=" 10" FMT="ZZZZZ."]
+		[RKB="ë‰í†ïî" ITM="TAN113" FLD="îÑè„ëeóò                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN006" FLD="ó\ éZ ÇP                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="ë‰í†ïî" ITM="TAN149" FLD="íBê¨ó¶(%)                   " WID=" 10" FMT="ZZZZZ." RET="1"]
+	}
+
+}
+
+
+

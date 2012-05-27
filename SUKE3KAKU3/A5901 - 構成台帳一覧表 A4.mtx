@@ -1,0 +1,81 @@
+[_ID="A3CSD" mtsCOD="A5901 " mtsNA1="構成台帳一覧表 A4           "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="日報"
+		cshDAT="[構成][][][][][]"
+		cshKBN="伝票日付"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="構成台帳一覧表                      "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="表題部" ITM="KOS001" FLD="コ－ド                      " WID=" 17" UDL="1"]
+		[RKB="表題部" ITM="KOS002" FLD="製品名                      " WID=" 32" UDL="1"]
+		[RKB="表題部" ITM="KOS004" FLD="  構成数量                  " WID=" 10" FMT="ZZZZZ." UDL="1"]
+		[RKB="表題部" ITM="KOS003" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="表題部" ITM="KOS006" FLD="  単位原価                  " WID=" 10" FMT="ZZZZZ." UDL="1"]
+		[RKB="表題部" ITM="KOS005" FLD="  部品種類                  " WID=" 10" FMT="ZZ,ZZZ" UDL="1" RET="1"]
+		[RKB="明細部" ITM="CTR001" FLD="                            " WID=" 17"]
+		[RKB="明細部" ITM="KOS101" FLD=" №                         " WID="  3" FMT="ZZZZZZ" UDL="1"]
+		[RKB="明細部" ITM="KOS102" FLD="コ－ド                      " WID=" 17" UDL="1"]
+		[RKB="明細部" ITM="KOS103" FLD="部品名                      " WID=" 32" UDL="1"]
+		[RKB="明細部" ITM="KOS107" FLD="      数量                  " WID=" 10" FMT="ZZZZZ." UDL="1"]
+		[RKB="明細部" ITM="KOS104" FLD="単位                        " WID="  4" UDL="1"]
+		[RKB="明細部" ITM="KOS108" FLD="      単価                  " WID=" 10" FMT="ZZZZZ." UDL="1"]
+		[RKB="明細部" ITM="KOS109" FLD="           金額             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" RET="1"]
+		[RKB="合計部" ITM="CTR001" FLD="                            " WID=" 65"]
+		[RKB="合計部" ITM="CTR001" FLD="製品計                      " WID="  6"]
+		[RKB="合計部" ITM="KOS301" FLD="  数量合計                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="合計部" ITM="CTR001" FLD="                            " WID="  4"]
+		[RKB="合計部" ITM="KOS008" FLD="　平均単価                  " WID=" 10" FMT="ZZZZZ." UDL="1"]
+		[RKB="合計部" ITM="KOS009" FLD="       金 額 計             " WID=" 15" FMT="ZZ,ZZZ" UDL="1" RET="1"]
+		[RKB="合計部" ITM="CTR005" TXT="復帰改行（復帰と改行）      " WID="  1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="表題部" ITM="KOS002" FLD="製品名                      " WID=" 32"]
+		[RKB="表題部" ITM="KOS004" FLD="  構成数量                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="表題部" ITM="KOS003" FLD="単位                        " WID="  4"]
+		[RKB="表題部" ITM="KOS006" FLD="  単位原価                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="表題部" ITM="KOS005" FLD="       部品種類             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="明細部" ITM="KOS103" FLD="部品名                      " WID=" 32"]
+		[RKB="明細部" ITM="KOS107" FLD="  部品数量                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS104" FLD="単位                        " WID="  4"]
+		[RKB="明細部" ITM="KOS108" FLD="  部品単価                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS109" FLD="       部品金額             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+		[RKB="合計部" ITM="CTR001" FLD="                            " WID=" 32"]
+		[RKB="合計部" ITM="KOS007" FLD="  数 量 計                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="合計部" ITM="CTR001" FLD="                            " WID="  4"]
+		[RKB="合計部" ITM="KOS008" FLD="  平均単価                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="合計部" ITM="KOS009" FLD="       金 額 計             " WID=" 15" FMT="ZZ,ZZZ" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="表題部" ITM="KOS001" FLD="製品コ－ド                  " WID=" 17"]
+		[RKB="表題部" ITM="KOS004" FLD="  構成数量                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS102" FLD="部品コ－ド                  " WID=" 17"]
+		[RKB="明細部" ITM="KOS103" FLD="部品名                      " WID=" 32"]
+		[RKB="明細部" ITM="KOS104" FLD="単位                        " WID="  4"]
+		[RKB="明細部" ITM="KOS105" FLD="      入数                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS106" FLD="      箱数                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS107" FLD="      数量                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS108" FLD="      単価                  " WID=" 10" FMT="ZZZZZ."]
+		[RKB="明細部" ITM="KOS109" FLD="      金額                  " WID=" 10" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+

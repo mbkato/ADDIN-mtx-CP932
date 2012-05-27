@@ -1,0 +1,52 @@
+[_ID="A3CSD" mtsCOD="A2005 " mtsNA1="得意先納品一覧表 A4         "]
+{
+	[
+		_ID="A3CSD_INI"
+		cshPRK="集計表１"
+		cshDAT="[得意][][][][][]"
+		cshKBN="期間"
+		cshOPT="標準帳票"
+	]
+	[
+		_ID="A3CSD_PRN"
+		cshHDR="得意先納品一覧表                    "
+		cshFON="半角漢字"
+		csh1PG=" 50"
+		cshCLX="112"
+		cshLCX=" 43"
+		cshHDL="  3"
+		cshYMD="  1"
+		cshGDI="1"
+	]
+	{
+		[RKB="台帳部" ITM="TOK001" FLD="コ－ド                      " WID=" 12" UDL="1"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名                    " WID=" 28" UDL="1"]
+		[RKB="台帳部" ITM="TOK130" FLD="     納　　品               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK131" FLD="     納品値引               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK132" FLD="     納品返品               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1"]
+		[RKB="台帳部" ITM="TOK133" FLD="     納 品 計               " WID=" 13" FMT="ZZ,ZZZ" UDL="1" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_CRT"]
+	{
+		[RKB="台帳部" ITM="TOK003" FLD="　　　得　意　先　名        " WID=" 28"]
+		[RKB="台帳部" ITM="TOK130" FLD="　納　　品                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK131" FLD="　納品値引                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK132" FLD="　納品返品                  " WID=" 11" FMT="ZZZZZZ" TTL="1"]
+		[RKB="台帳部" ITM="TOK133" FLD="　納 品 計                  " WID=" 11" FMT="ZZZZZZ" TTL="1" RET="1"]
+	}
+
+	[_ID="A3CSD_TXT"]
+	{
+		[RKB="台帳部" ITM="TOK001" FLD="得意先コ－ド                " WID=" 12"]
+		[RKB="台帳部" ITM="TOK003" FLD="得意先名称                  " WID=" 28"]
+		[RKB="台帳部" ITM="TOK130" FLD="納　　品                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK131" FLD="納品値引                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK132" FLD="納品返品                    " WID=" 15" FMT="ZZZZZZ"]
+		[RKB="台帳部" ITM="TOK133" FLD="納 品 計                    " WID=" 15" FMT="ZZZZZZ" RET="1"]
+	}
+
+}
+
+
+
